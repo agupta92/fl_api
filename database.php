@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "freelancing");
+$mysqli = new mysqli("localhost", "root", "ankit", "freelancing");
 
 /* check connection */
 if (mysqli_connect_errno()) {
