@@ -28,5 +28,5 @@ if (!$query) {
 	echo json_encode(array('m'=>'Data Not Saved','s'=>2,'d'=>array()));
 }
 header('Content-Type: application/json');
-echo json_encode($result);
+//echo json_encode($result);
 ?>
